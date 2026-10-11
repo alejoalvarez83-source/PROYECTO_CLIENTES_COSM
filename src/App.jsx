@@ -107,7 +107,11 @@ export function App() {
       <header className="navbar">
         <div className="container nav-inner">
           <div className="brand-wrapper">
-            <div className="brand-logo-badge">MR</div>
+            <img 
+              src="/logo.png" 
+              alt="Mildred Restrepo - Cosmetóloga" 
+              className="brand-logo-img" 
+            />
             <div className="brand-text">
               <h1>Mildred Restrepo</h1>
               <span>Cosmetología & Estética Facial</span>
@@ -185,7 +189,7 @@ export function App() {
         {/* Ficha Especialista Mildred Restrepo */}
         <div className="specialist-card">
           <img 
-            src="/mildred.jpg" 
+            src="/mildred.png" 
             alt="Mildred Restrepo Cosmetóloga" 
             className="specialist-avatar" 
           />
@@ -302,7 +306,11 @@ export function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <div className="brand-logo-badge" style={{ margin: '0 auto 1rem', width: '48px', height: '48px' }}>MR</div>
+          <img 
+            src="/logo.png" 
+            alt="Mildred Restrepo" 
+            className="footer-logo-img" 
+          />
           <div className="footer-brand">Mildred Restrepo Cosmetóloga</div>
           <p className="footer-text" style={{ maxWidth: '500px', margin: '0 auto 1rem' }}>
             Comprometida con la salud, belleza y rejuvenecimiento de tu piel a través de tratamientos cosmetológicos científicos y seguros.

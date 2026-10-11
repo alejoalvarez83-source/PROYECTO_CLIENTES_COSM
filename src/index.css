@@ -139,6 +139,33 @@ input:focus, select:focus, textarea:focus {
   text-decoration: none;
 }
 
+.brand-logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--accent-gold);
+  box-shadow: var(--shadow-sm);
+  background-color: #FAF1DF;
+  transition: transform var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.brand-logo-img:hover {
+  transform: scale(1.05);
+}
+
+.footer-logo-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--accent-gold);
+  box-shadow: var(--shadow-sm);
+  margin: 0 auto 1rem;
+  display: block;
+}
+
 .brand-logo-badge {
   width: 44px;
   height: 44px;
@@ -353,12 +380,14 @@ input:focus, select:focus, textarea:focus {
 }
 
 .specialist-avatar {
-  width: 64px;
-  height: 64px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 20%;
   border: 2px solid var(--accent-gold);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 14px rgba(184, 134, 11, 0.18);
+  flex-shrink: 0;
 }
 
 .specialist-info h3 {
@@ -1142,9 +1171,10 @@ html, body {
     padding: 0.75rem 0;
   }
 
-  .brand-logo-badge {
-    width: 38px;
-    height: 38px;
+  .brand-logo-badge,
+  .brand-logo-img {
+    width: 40px;
+    height: 40px;
     font-size: 1.2rem;
   }
 
